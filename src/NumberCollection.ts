@@ -5,6 +5,7 @@ export class NumberCollection extends Sorter {
         super();
     }
 
+    // getter function for the length of the array
     public get length(): number {
         return this.data.length;
     }

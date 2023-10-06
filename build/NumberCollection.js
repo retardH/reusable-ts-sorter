@@ -7,6 +7,7 @@ class NumberCollection extends Sorter_1.Sorter {
         super();
         this.data = data;
     }
+    // getter function for the length of the array
     get length() {
         return this.data.length;
     }
